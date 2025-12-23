@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Usage:
-    python run_model.py --input "[5.1, 3.5, 1.4, 0.2]" sampl
+    python run_model.py --input "[5.1, 3.5, 1.4, 0.2]" 
 """
 
 import argparse
