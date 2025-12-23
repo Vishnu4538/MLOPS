@@ -1,0 +1,4 @@
+[core]
+    remote = vishnuremote
+['remote "vishnuremote"']
+    url = s3://mlops-demo-vishnu
