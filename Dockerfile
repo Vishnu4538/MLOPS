@@ -1,13 +1,14 @@
-FROM python:3.12-slim
+FROM python:3.9-slim
 
 WORKDIR /app
-COPY requirements.txt .
 
-RUN python -m pip install --upgrade pip
-RUN python -m pip install -r requirements.txt
+COPY requirements.txt  .
+
+RUN pip install -r requirements.txt
 
 COPY . . 
 
-EXPOSE 5001
+EXPOSE 8000
 
 CMD ["python", "app.py"]
+
